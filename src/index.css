@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap');
+@import "tailwindcss";
+html {
+  scroll-behavior: smooth;
+}
+.sora{
+  font-family: "sora", sans-serif;
+}
+.dosis {
+  font-family: "Dosis", sans-serif;
+}
+.noto{
+  font-family: "Noto Sans", sans-serif;
+}
+.roboto{
+   font-family: "Roboto Condensed", sans-serif;
+}
+
+
