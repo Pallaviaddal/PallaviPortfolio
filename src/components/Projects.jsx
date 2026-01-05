@@ -44,7 +44,7 @@ function Projects() {
             <div className='md:px-10 lg:px-50 px-5'>
                 <h1 className="px-3 md:px-10 bg-gradient-to-r md:mt-20 from-violet-500 to-cyan-400 bg-clip-text md:text-5xl text-2xl text-transparent sora">Major Projects</h1>
                 <div className="grid grid-cols-1 py-4 gap-2 text-white">
-                    <div className="bg-black px-6 md:px-20 py-20 text-white space-y-12">
+                    <div className="bg-black px-6 md:px-20 py-5 text-white space-y-12">
                         {projects.map((item, index) => {
                             const Icon = item.icon;
                             return (

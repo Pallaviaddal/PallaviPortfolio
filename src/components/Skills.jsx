@@ -5,7 +5,7 @@ function Skills() {
         <div className='min-h-110 bg-black' id='skills'>
             <div className='flex justify-center md:py-10'>
                 <div className='lg:w-3/4 w-2xl lg:px-10'>
-                    <p className='bg-gradient-to-r py-5 from-violet-500 to-blue-300 bg-clip-text text-5xl font-semibold text-transparent'>Skills & Interests</p>
+                    <p className='bg-gradient-to-r py-5 md:px-0 px-5 from-violet-500 to-blue-300 bg-clip-text text-5xl font-semibold text-transparent'>Skills & Interests</p>
                     <div className='grid lg:grid-cols-2 grid-cols-1 gap-6 lg:mx-0 mx-5'>
                         <div className='text-white dosis text-xl'>
                             <p className='bg-gradient-to-r py-5 from-violet-400 to-blue-300 bg-clip-text text-3xl font-semibold text-transparent'>Soft Skills</p>

@@ -17,7 +17,7 @@ function Contact() {
                             </p>
                             <div className='py-1 space-y-4'>
                                 <p className='font-semibold'>Contact Information:</p>
-                                <p className='font-semibold'>Phone: <span className='font-normal'>+91 9963781623</span></p>
+                                {/* <p className='font-semibold'>Phone: <span className='font-normal'>+91 9963781623</span></p> */}
                             </div>
                             <div className='py-1 space-y-4 flex space-x-2'>
                                 <p><Mails/></p>
@@ -43,7 +43,7 @@ function Contact() {
                             <img src="./contactUs.png" alt="Contact" className='rounded-md w-90' />
                         </div>
                     </div>
-                    <div className='py-10 space-x-3'>
+                    <div className='py-10 md:space-x-3 space-x-1 md:px-0 px-3 space-y-8'>
                         <button>
                             <Link to="tel:+91 9963781623" className='mt-10 bg-blue-600 text-white font-bold py-3 px-6 rounded-lg'>
                                 Get in Touch
