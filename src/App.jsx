@@ -30,8 +30,8 @@ function App() {
       />
       <Profile />
 
-      <div ref={technicalRef}><Technical /></div>
       <div ref={careerRef}><Career /></div>
+      <div ref={technicalRef}><Technical /></div>
       <Education />
       <div ref={experienceRef}><Experience /></div>
       <div ref={projectsRef}><Projects /></div>
